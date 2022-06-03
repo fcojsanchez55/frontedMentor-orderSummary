@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    background-size: contain;
+}
+
+@media screen and (min-width: 500px) {
+    body{
+        background-position: center;
+    }
+}
+
+
+.attribution { font-size: 14px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 375px;
+    height: 580px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: -1px 16px 33px -16px rgba(0,0,0,0.61);
+    -webkit-box-shadow: -1px 16px 33px -16px rgba(0,0,0,0.61);
+    -moz-box-shadow: -1px 16px 33px -16px rgba(0,0,0,0.61);
+}
+.container h1{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(31, 47, 86)
+}
+.container h3{
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+}
+
+.container p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.img-music{
+    width: 375px;
+    height: 200px;
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 5rem;
+    border-radius: 10px;
+    margin:  auto;
+    background-color: hsl(225, 67%, 98%);
+}
+
+.price p b{
+    color: rgb(31, 47, 86)
+}
+
+
+.price p{
+    margin-right: 50px;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url(images/icon-music.svg);
+    background-image: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+#change {
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+}
+
+a:active{
+    color: #3829E0;
+}
+
+
+
+input{
+    margin-top: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    height: 50px;
+    -webkit-box-shadow: 0px 10px 13px -7px #3829E0, 5px 5px 15px 5px rgba(56,41,224,0); 
+    box-shadow: 0px 10px 13px -7px #3829E0, 5px 5px 15px 5px rgba(56,41,224,0);
+}
+
+input:focus{
+    color: #fff;
+}
+
+
+
+span{
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+span a{
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+
+
