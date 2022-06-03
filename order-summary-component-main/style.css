@@ -97,6 +97,10 @@ body{
     text-align: center;
 }
 
+a:active{
+    color: #3829E0;
+}
+
 
 
 input{
@@ -112,6 +116,12 @@ input{
     -webkit-box-shadow: 0px 10px 13px -7px #3829E0, 5px 5px 15px 5px rgba(56,41,224,0); 
     box-shadow: 0px 10px 13px -7px #3829E0, 5px 5px 15px 5px rgba(56,41,224,0);
 }
+
+input:focus{
+    color: #fff;
+}
+
+
 
 span{
     display: block;
