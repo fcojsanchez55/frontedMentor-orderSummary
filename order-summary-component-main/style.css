@@ -1,14 +1,21 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-color:  hsl(225, 100%, 94%) ;
+    background-color:  hsl(225, 100%, 94%);
+    background-size: contain;
 }
 
 @media screen and (min-width: 500px) {
     body{
-        background-color:  hsl(225, 100%, 94%) ;
+        background-position: center;
     }
 }
 
@@ -32,6 +39,7 @@ body{
 .container h1{
     font-size: 25px;
     font-weight: 800;
+    color: rgb(31, 47, 86)
 }
 .container h3{
     font-size: 16px;
@@ -46,7 +54,7 @@ body{
 .img-music{
     width: 375px;
     height: 200px;
-    background-image: url(/images/illustration-hero.svg);
+    background-image: url(images/illustration-hero.svg);
     background-size: cover;
 }
 
@@ -63,7 +71,7 @@ body{
 }
 
 .price p b{
-    color: black;
+    color: rgb(31, 47, 86)
 }
 
 
@@ -75,7 +83,7 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-image: url(/images/icon-music.svg);
+    background-image: url(images/icon-music.svg);
     background-image: no-repeat;
     background-size: cover;
     margin: auto;
